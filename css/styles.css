@@ -1,3 +1,8 @@
+body {
+  font-family: sans-serif;
+  min-height: 900px;
+}
+
 /*body {
   text-align: center;
   font-family: courier;
@@ -21,9 +26,6 @@
   height: 1.5em;
 }
 
-body{font-family:sans-serif;
-	min-height:900px;
-}
 #grid{
 	display:grid;
 	grid-template-areas:
