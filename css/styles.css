@@ -37,14 +37,15 @@ body {
   cursor: pointer;
 }
 
-/*#color p{
-	font-size:180%;
-	position:absolute;
-	bottom:0;
-	width:100%;
-	text-align:center;
+#color p {
+  font-size: 180%;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
 }
-#picker{
+
+/*#picker{
 	grid-area:p;
 	line-height:100%;
 }
