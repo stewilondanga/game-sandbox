@@ -60,11 +60,12 @@ body {
   overflow-y: scroll;
 }
 
-/*.pick{
-	float:left;
-	width:100%;
+.pick {
+  float: left;
+  width: 100%;
 }
-input[type=range]{
+
+/*input[type=range]{
 	width:50vw;height:8%;
 	min-height:40px;
 	margin:0;
