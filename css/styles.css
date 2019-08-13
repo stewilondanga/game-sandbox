@@ -55,11 +55,12 @@ body {
   margin: 1em;
 }
 
-/*#box{
-	grid-area:b;
-	overflow-y:scroll;
+#box {
+  grid-area: b;
+  overflow-y: scroll;
 }
-.pick{
+
+/*.pick{
 	float:left;
 	width:100%;
 }
