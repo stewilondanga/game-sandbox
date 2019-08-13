@@ -65,14 +65,16 @@ body {
   width: 100%;
 }
 
-/*input[type=range]{
-	width:50vw;height:8%;
-	min-height:40px;
-	margin:0;
-	-webkit-appearance: none;
-	vertical-align:middle;
+input[type=range] {
+  width: 50vw;
+  height: 8%;
+  min-height: 40px;
+  margin: 0;
+  -webkit-appearance: none;
+  vertical-align: middle;
 }
-input[type=range]:focus {
+
+/*input[type=range]:focus {
  	outline: none;
 }
 input[type=range]::-moz-range-thumb {
