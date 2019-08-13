@@ -89,12 +89,14 @@ input[type=range]::-moz-range-track {
   background-color: transparent;
 }
 
-/*input[type=range]::-ms-thumb {
-	width:15px;height:100%;
-	background-color:rgba(255,255,255,0.6);
-	box-shadow:0 0 1px #fff;
+input[type=range]::-ms-thumb {
+  width: 15px;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.6);
+  box-shadow: 0 0 1px #fff;
 }
-input[type=range]::-webkit-slider-thumb {
+
+/*input[type=range]::-webkit-slider-thumb {
 	-webkit-appearance: none;
 	width:15px;height:100%;
 	min-height:40px;
