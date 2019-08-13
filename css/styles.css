@@ -78,12 +78,14 @@ input[type=range]:focus {
   outline: none;
 }
 
-/*input[type=range]::-moz-range-thumb {
-	width:15px;height:100%;
-	background-color:rgba(255,255,255,0.6);
-	box-shadow:0 0 1px #fff;
+input[type=range]::-moz-range-thumb {
+  width: 15px;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.6);
+  box-shadow: 0 0 1px #fff;
 }
-input[type=range]::-moz-range-track {
+
+/*input[type=range]::-moz-range-track {
 	background-color:transparent;
 }
 input[type=range]::-ms-thumb {
