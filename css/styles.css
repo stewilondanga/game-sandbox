@@ -28,11 +28,12 @@ body {
   min-width: 500px;
 }
 
-/*#color{
-	grid-area:c;
-	position:relative;
+#color {
+  grid-area: c;
+  position: relative;
 }
-#color,input[type=checkbox]{
+
+/*#color,input[type=checkbox]{
 	cursor:pointer;
 }
 #color p{
