@@ -3,11 +3,12 @@ var colorray = [127, 127, 127]; //default
 window.onload = function() {
   color = document.getElementById('color');
 }
-/*function setRGB(rgb,value){
-	colorray[rgb]=value;
-	color.style.backgroundColor="rgb("+colorray[0]+","+colorray[1]+","+colorray[2]+")";
+
+function setRGB(rgb, value) {
+  colorray[rgb] = value;
+  color.style.backgroundColor = "rgb(" + colorray[0] + "," + colorray[1] + "," + colorray[2] + ")";
 }
-function drawing(elem){
+/*function drawing(elem){
 	if(!elem.checked){
 		elem.style.backgroundColor="transparent";
 		return;
