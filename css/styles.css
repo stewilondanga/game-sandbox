@@ -50,11 +50,12 @@ body {
   line-height: 100%;
 }
 
-/*#picker span{
-	font-size:140%;
-	margin:1em;
+#picker span {
+  font-size: 140%;
+  margin: 1em;
 }
-#box{
+
+/*#box{
 	grid-area:b;
 	overflow-y:scroll;
 }
