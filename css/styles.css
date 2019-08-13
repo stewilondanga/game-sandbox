@@ -14,11 +14,11 @@ body {
   height: 2.5em;
 }
 
-/*.my_social a img {
+.my_social a img {
   height: 1.5em;
 }
 
-#grid{
+/*#grid{
 	display:grid;
 	grid-template-areas:
 		"c p" "b b";
