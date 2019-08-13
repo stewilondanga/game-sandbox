@@ -45,11 +45,12 @@ body {
   text-align: center;
 }
 
-/*#picker{
-	grid-area:p;
-	line-height:100%;
+#picker {
+  grid-area: p;
+  line-height: 100%;
 }
-#picker span{
+
+/*#picker span{
 	font-size:140%;
 	margin:1em;
 }
