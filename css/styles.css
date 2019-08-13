@@ -1,4 +1,4 @@
-body {
+/*body {
   text-align: center;
   font-family: courier;
   background-image: url("../assets/image.jpeg");
@@ -19,6 +19,90 @@ body {
 
 .my_social a img {
   height: 1.5em;
+}
+
+body{font-family:sans-serif;
+	min-height:900px;
+}
+#grid{
+	display:grid;
+	grid-template-areas:
+		"c p" "b b";
+	grid-template-rows:24% 76%;
+	grid-template-columns:20% 80%;
+	height:100%;
+	min-width:500px;
+}
+#color{
+	grid-area:c;
+	position:relative;
+}
+#color,input[type=checkbox]{
+	cursor:pointer;
+}
+#color p{
+	font-size:180%;
+	position:absolute;
+	bottom:0;
+	width:100%;
+	text-align:center;
+}
+#picker{
+	grid-area:p;
+	line-height:100%;
+}
+#picker span{
+	font-size:140%;
+	margin:1em;
+}
+#box{
+	grid-area:b;
+	overflow-y:scroll;
+}
+.pick{
+	float:left;
+	width:100%;
+}
+input[type=range]{
+	width:50vw;height:8%;
+	min-height:40px;
+	margin:0;
+	-webkit-appearance: none;
+	vertical-align:middle;
+}
+input[type=range]:focus {
+ 	outline: none;
+}
+input[type=range]::-moz-range-thumb {
+	width:15px;height:100%;
+	background-color:rgba(255,255,255,0.6);
+	box-shadow:0 0 1px #fff;
+}
+input[type=range]::-moz-range-track {
+	background-color:transparent;
+}
+input[type=range]::-ms-thumb {
+	width:15px;height:100%;
+	background-color:rgba(255,255,255,0.6);
+	box-shadow:0 0 1px #fff;
+}
+input[type=range]::-webkit-slider-thumb {
+	-webkit-appearance: none;
+	width:15px;height:100%;
+	min-height:40px;
+	background-color:rgba(255,255,255,0.6);
+	box-shadow:0 0 1px #fff;
+}
+/*checkbox*/
+/*input[type=checkbox]{
+	width:5%;height:5vw;
+	min-height:25px;
+	-webkit-appearance:none;
+	-moz-appearance:none;
+	appearance:none;
+	border:1px solid #ccc;
+	margin:0;
+	float:left;
 }
 
 .containers {
